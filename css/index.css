@@ -49,6 +49,20 @@ a{
     line-height: 60px;
     padding-left: 20px;
     padding-right: 20px;
-    box-shadow: 5px 5px 0px #000000; /* Eixo X/Y, negativo sobe e positivo desce*/
+    box-shadow: 3px 3px 0px #000000; /* Eixo X/Y, negativo sobe e positivo desce*/
     margin-right: 0px;
+    border-radius: 20px;
+}
+
+#Download:hover{
+    display: inline-block;
+    border-radius: 20px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0px;
+    height: 60px;
+    background-color: #ba4170;
+    box-shadow: 3px 3px 0px #5a3aba;
+    border: 2px solid;
 }
