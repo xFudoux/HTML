@@ -1,0 +1,19 @@
+.button{
+    display: inline-block;  /* serve para tirar o bloqueio do display(LARGURA X ALTURA) */
+    background-color: #F25A70;
+    color: #ffff;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 3px 3px 0px #000000; /* Eixo X/Y, negativo sobe e positivo desce*/
+    margin-right: 0px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button:hover{
+    display: inline-block;
+    background-color: #ba4170;
+    outline: 2px solid;
+}
+
+/*# buscar apenas ID o . busca a CLASS */

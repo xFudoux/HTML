@@ -5,21 +5,42 @@
         <title>Pagina Curso</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/components/title.css">
+        <link rel="stylesheet" href="css/components/subtitle.css">
+        <link rel="stylesheet" href="css/components/box.css">
+        <link rel="stylesheet" href="css/components/button.css">
+        <link rel="stylesheet" href="css/components/action.css">
+        <link rel="stylesheet" href="css/components/header.css">
+        <link rel="stylesheet" href="css/components/banner.css">
     </head>
     <body>
-        <header> <!--Cabeçalho-->
+        <header class="header"> <!--Cabeçalho-->
             <img src="assets/img/logo.png">
 
             <nav> <!--Navegação-->
-                <img src="assets/img/bullet.png" id="bullet"><a href="" lang="en">Skills</a>
-                <img src="assets/img/bullet.png" id="bullet"><a href="">Projetos</a>
-                <img src="assets/img/bullet.png" id="bullet"><a href="">Sobre</a>
-                <img src="assets/img/bullet.png" id="bullet"><a href="">Contatos</a>
-                <a id="Download" href="" lang="en">Download CV</a> 
+                <img src="assets/img/bullet.png" id="bullet"><a class="action" href="" lang="en">Skills</a>
+                <img src="assets/img/bullet.png" id="bullet"><a class="action" href="">Projetos</a>
+                <img src="assets/img/bullet.png" id="bullet"><a class="action" href="">Sobre</a>
+                <img src="assets/img/bullet.png" id="bullet"><a class="action" href="">Contatos</a>
+                <a class="button" href="" lang="en">Download CV</a> 
             </nav>
         </header>
+
+        <section class="banner">
+            <div class="wrapper">
+                <div id="box"> <!-- ID so pode ser usado 1x por pagina-->
+                    <h1 class="title">Tony Silva</h1>
+                    <h2 class="subtitle">Front/Backend Developer</h2>
+                </div> <!--Caixa em torno do h1/h2-->
+                <div class="navigation">
+                    <a class="button" href="" lang="en">Download CV</a>
+                    <a class="button" href="" lang="en">Contatos</a>
+                </div>
+            </div>
+        </section>
+
     </body>
 </html>

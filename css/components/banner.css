@@ -1,0 +1,22 @@
+.banner{
+    background-image: url(../../assets/img/pexels-vlad-alexandru-popa-1402787.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    height: 800px;
+    border-bottom: 10px solid #000000;
+
+}
+
+.banner .wrapper{
+    display: flex;
+    flex-direction:column;
+    width: 640px;
+    padding-left: 91px;
+    padding-top: 116px;
+}
+
+.banner .navigation{
+    display: flex;
+    justify-content: space-evenly;
+}
