@@ -1,19 +1,25 @@
 .banner{
-    background-image: url(../../assets/img/pexels-vlad-alexandru-popa-1402787.jpg);
+    display: flex;
+    box-sizing: border-box;
+    background-image: url(../../assets/img/teste.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 2000px 960px;
     width: auto;
-    height: 800px;
+    height: 960px;
     border-bottom: 10px solid #000000;
-
+    padding-left: 91px;
+    padding-top: 116px;
 }
 
 .banner .wrapper{
-    display: flex;
+    display: inline-flex;
     flex-direction:column;
     width: 640px;
-    padding-left: 91px;
-    padding-top: 116px;
+
+}
+
+.banner #box{
+    margin-bottom: 40px;
 }
 
 .banner .navigation{

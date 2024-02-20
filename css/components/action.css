@@ -8,18 +8,6 @@
     margin-right: 30px;
 }
 
-/* Teste para colocar a imagem 
-.action::before{
-    content: "";
-    top: 0;
-    left: 0;
-    width: 10px;
-    height: 10px;
-    background-image: url("../../assets/img/bullet.png");
-    background-size: cover;
-    background-position: center;
-}
-Fim do teste */
 
 #bullet{
     margin-right: 6px;
