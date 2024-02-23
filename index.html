@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/components/title.css">
+        <link rel="stylesheet" href="css/components/main-title.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
         <link rel="stylesheet" href="css/components/box.css">
         <link rel="stylesheet" href="css/components/button.css">
@@ -16,7 +16,8 @@
         <link rel="stylesheet" href="css/components/header.css">
         <link rel="stylesheet" href="css/components/banner.css">
         <link rel="stylesheet" href="css/components/section.css">
-
+        <link rel="stylesheet" href="css/components/skill.css">
+        <link rel="stylesheet" href="css/components/progressbar.css">
     </head>
     <body>
         <header class="header"> <!--Cabeçalho-->
@@ -34,7 +35,7 @@
         <section class="banner">
             <div class="wrapper">
                 <div id="box"> <!-- ID so pode ser usado 1x por pagina-->
-                    <h1 class="title">Tony Silva</h1>
+                    <h1 class="main-title">Tony Silva</h1>
                     <h2 class="subtitle">Front/Backend Developer</h2>
                 </div> <!--Caixa em torno do h1/h2-->
                 <div class="navigation">
@@ -44,7 +45,32 @@
             </div>
         </section>
         <section class="section">
-            <h1 class="title -second">Skills</h1>
+            <h1 class="main-title -second">Skills</h1>
+
+            <article class="skill">
+                <img class="icon" src="assets/img/icons8-html-96.png">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progressbar" value="70" max="100">70%</progress>
+                </div>    
+            </article>
+
+            <article class="skill">
+                <img class="icon" src="assets/img/icons8-css-96.png">
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progressbar" value="70" max="100">70%</progress>
+                </div>    
+            </article>
+
+            <article class="skill">
+                <img class="icon" src="assets/img/icons8-python-96.png">
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progressbar" value="70" max="100">70%</progress>
+                </div>    
+            </article>
+            
         </section>    
     </body>
 </html>

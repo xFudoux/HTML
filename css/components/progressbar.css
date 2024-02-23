@@ -1,0 +1,15 @@
+.progressbar{
+    border: 5px solid #000;
+    box-sizing: border-box;
+    height: 40px;
+    width: 320px;
+}
+
+/* Cor do Valor da Barra */.progressbar::-webkit-progress-value{
+    background-color: #6b0e22;
+}
+
+/* Cor do Fundo */.progressbar::-webkit-progress-bar{
+    background-color: #fff;
+}
+
