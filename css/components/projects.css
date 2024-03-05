@@ -1,0 +1,33 @@
+.projects{
+    text-align: center;
+    background-color: #000;
+    padding-top: 50px;
+    border-bottom: 10px solid #F25A70;
+    padding-bottom: 100px;
+}
+
+.projects .main-title{
+    color:  #fff;
+    margin-bottom: 60px;
+}
+
+.projects .imagem{
+    height: 254px;
+    width: 240px;
+    display: inline-flex;
+    background-color: #7C5E99;
+    padding: 17px 35px;
+    box-shadow: 10px 10px #b41212;
+    margin-right: 150px;
+}
+
+.projects .imagem.-second{
+    margin-left: 0;
+    background-color: #4C5B84;
+}
+
+.projects .imagem.-third{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #F25A70;
+}

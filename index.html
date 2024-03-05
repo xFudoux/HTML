@@ -18,6 +18,8 @@
         <link rel="stylesheet" href="css/components/section.css">
         <link rel="stylesheet" href="css/components/skill.css">
         <link rel="stylesheet" href="css/components/progressbar.css">
+        <link rel="stylesheet" href="css/components/wrapper.css">
+        <link rel="stylesheet" href="css/components/projects.css">
     </head>
     <body>
         <header class="header"> <!--Cabeçalho-->
@@ -33,6 +35,7 @@
         </header>
 
         <section class="banner">
+
             <div class="wrapper">
                 <div id="box"> <!-- ID so pode ser usado 1x por pagina-->
                     <h1 class="main-title">Tony Silva</h1>
@@ -44,33 +47,57 @@
                 </div>
             </div>
         </section>
+
         <section class="section">
+
             <h1 class="main-title -second">Skills</h1>
 
-            <article class="skill">
-                <img class="icon" src="assets/img/icons8-html-96.png">
-                <div class="right">
-                    <h3 class="title">HTML</h3>
-                    <progress class="progressbar" value="70" max="100">70%</progress>
-                </div>    
-            </article>
+            <div class="wrapper">
+                <article class="skill">
+                    <img class="icon" src="assets/img/icons8-html-96.png">
+                    <div class="right">
+                        <h1 class="title">HTML</h1>
+                        <progress class="progressbar" value="70" max="100">70%</progress>
+                    </div>    
+                </article>
 
-            <article class="skill">
-                <img class="icon" src="assets/img/icons8-css-96.png">
-                <div class="right">
-                    <h3 class="title">CSS</h3>
-                    <progress class="progressbar" value="70" max="100">70%</progress>
-                </div>    
-            </article>
+                <article class="skill">
+                    <img class="icon" src="assets/img/icons8-css-96.png">
+                    <div class="right">
+                        <h3 class="title">CSS</h3>
+                        <progress class="progressbar" value="70" max="100">70%</progress>
+                    </div>    
+                </article>
 
-            <article class="skill">
-                <img class="icon" src="assets/img/icons8-python-96.png">
-                <div class="right">
-                    <h3 class="title">CSS</h3>
-                    <progress class="progressbar" value="70" max="100">70%</progress>
-                </div>    
-            </article>
-            
-        </section>    
+                <article class="skill">
+                    <img class="icon" src="assets/img/icons8-python-96.png">
+                    <div class="right">
+                        <h3 class="title">CSS</h3>
+                        <progress class="progressbar" value="70" max="100">70%</progress>
+
+                    </div>    
+                </article>
+            </div>
+        </section>
+        
+        <section class="projects">
+            <h1 class="main-title -projects">Projetos</h1>
+            <a href="" target="_blank">
+                <figure class="imagem">
+                    <img src="assets/img/logo-firedlabs.png">
+                </figure>
+            </a>
+            <a href="" target="_blank">
+                <figure class="imagem -second">
+                    <img src="assets/img/logo-collabcode.png">
+                </figure>
+            </a>
+            <a a href="" target="_blank">
+                <figure class="imagem -third">
+                    <img src="assets/img/portfolio (1) - Copia-Photoroom.png-Photoroom.png ">
+                </figure>
+            </a>
+
+        </section>
     </body>
 </html>

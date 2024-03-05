@@ -7,10 +7,15 @@
 
 .skill .icon{
     margin-right: 25px;
+    max-width: 80px;
 }
 
 .skill .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill .title{
+    margin-bottom: 15px;
 }
