@@ -10,3 +10,8 @@
 .section .main-title{
     margin-bottom: 60px;
 }
+
+.section.-sobre{
+    background-color: #7C5E99;
+    border-bottom: 10px solid #000;
+}
