@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper-skill{
     display: flex;
     flex-wrap: wrap;
     max-width: 960px;
@@ -6,15 +6,15 @@
     margin-right: auto;
 }
 
-.wrapper .skill{
+.wrapper-skill .skill{
     width: 430px;
     margin-bottom: 40px;
 }
 
-.wrapper .skill:nth-child(odd){
+.wrapper-skill .skill:nth-child(odd){
     margin-right: 100px;
 }
 
-.wrapper .progress{
+.wrapper-skill .progress{
     width: 320px;
 }
