@@ -1,12 +1,20 @@
 .node-card{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
-
+    position: relative;
 }
 
 .node-card::before{
-    content: 'A';
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    border: 2.5px dashed #000;
+    transform: rotate(90deg) translateX(-60%);
+    bottom: 140px;
+
 }
 
 .node-card .main-title{
@@ -25,3 +33,12 @@
     background-color: #CEB02A;
     padding: 0px 20px;
 }
+
+.node-card .-second{
+    padding: 0;
+}
+
+.node-card .-third{
+    background-color: #F25A70;
+}
+
