@@ -1,0 +1,30 @@
+.carrossel{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.carrossel::after{
+    content: '';
+    position: absolute;
+    top: 38px;
+    height: 5px;
+    width: 100%;
+    background-color: #000;
+}
+
+.carrossel .button-arrow{
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+
+.carrossel .button-arrow.-e{
+    left: 15px;
+}
+
+.carrossel .button-arrow.-d{
+    right: 15px;
+}
