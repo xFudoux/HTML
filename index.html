@@ -24,6 +24,8 @@
         <link rel="stylesheet" href="css/components/button-arrow.css">
         <link rel="stylesheet" href="css/components/node-card.css">
         <link rel="stylesheet" href="css/components/carrossel.css"/>
+        <link rel="stylesheet" href="css/components/footer.css">
+        <link rel="stylesheet" href="css/components/formulario.css">
     </head>
     <body>
         <header class="header"> <!--Cabeçalho-->
@@ -161,5 +163,35 @@
         </section>
 
         <script src="js/components/carrossel.js"></script>
+
+        <form class="formulario">
+            <h1 class="main-title -second">Contatos</h1>
+
+            <label for="nome">Nome</label>
+                <input class="input" id="nome" type="text" required>
+
+            <label for="email">Email</label>    
+                <input class="input" id="email" type="email" required>
+
+            <label for="mensagem">Mensagem</label>
+                <textarea class="mensagem" required></textarea>
+
+            <input class="B-Enviar" type="submit" value="Enviar">
+        </form>
+
+        <footer class="footer">
+            <a  href="https://twitter.com" target="_blank">
+                <img class="icone" src="/assets/img/twitter 1.png" alt="Logo Twitter">
+            </a>
+
+            <a href="https://youtube.com" target="_blank">
+                <img class="icone" src="/assets/img/youtube 1.png" alt="Logo Youtube">
+            </a>
+
+            <a href="https://discord.com" target="_blank">
+                <img class="icone" src="assets/img/discord 1.png" alt="Logo Discord">
+            </a>
+
+        </footer>
     </body>
 </html>
