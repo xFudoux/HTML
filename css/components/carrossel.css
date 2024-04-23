@@ -44,11 +44,12 @@
 
 .carrossel .item{
     width: 100%;
+    overflow: hidden;
 
 }
 
 .carrossel .elements{
     display: flex;
     justify-content: space-evenly;
-    transition: transform 100ms ease-in-out;
+    transition: transform 250ms ease-in-out;
 }
